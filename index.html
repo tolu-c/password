@@ -11,18 +11,28 @@
       media="screen"
       href="static/css/index.css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9c672bfd73.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
       <form action="#" method="get">
-        <label for="username">
-          Username
+        <div class="user">
+          <label for="username"> Username </label>
           <input type="text" name="username" id="username" />
-        </label>
-        <label for="password">
-          Secret Key
+        </div>
+        <div class="pssd">
+          <label for="password"> Secret Key </label>
           <input type="password" name="secret_key" id="password" />
-        </label>
+          <i class="far fa-eye eye"></i>
+        </div>
       </form>
     </div>
 
