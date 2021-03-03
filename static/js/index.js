@@ -1,5 +1,5 @@
 function viewPsd() {
-  var eye = document.querySelector("#eye");
+  var eye = document.getElementById("eye");
   if (eye.type === "password") {
     eye.type = "text";
   } else {
