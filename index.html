@@ -20,6 +20,10 @@
       src="https://kit.fontawesome.com/9c672bfd73.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -31,7 +35,10 @@
         <div class="pssd">
           <label for="password"> Secret Key </label>
           <input type="password" name="secret_key" id="password" />
-          <i class="far fa-eye eye" id="eye" onclick="viewPsd()"></i>
+          <div class="eye-icon">
+            <!-- <i class="far fa-eye eye" id="eye"></i> -->
+            <ion-icon name="eye-outline" id="eye" class="eye"></ion-icon>
+          </div>
         </div>
       </form>
     </div>

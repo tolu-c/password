@@ -1,9 +1,18 @@
+let psd = document.querySelector("#password");
+let eye = document.querySelector(".eye-icon");
+let eyeClose = document.querySelector("#eye");
+
+eye.addEventListener("click", viewPsd);
+
 function viewPsd() {
-  var eye = document.getElementById("eye");
-  if (eye.type === "password") {
-    eye.type = "text";
+  if (psd.type === "password") {
+    psd.type = "text";
   } else {
-    eye.type = "password";
+    psd.type = "password";
+  }
+  if (eyeClose.name === "eye-outline") {
+    eyeClose.name = "eye-off-outline";
+  } else {
+    eyeClose.name = "eye-outline";
   }
 }
-// <i class="far fa-eye-slash"></i>
