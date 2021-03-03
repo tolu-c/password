@@ -71,16 +71,3 @@ input:focus {
   float: left;
   /* border:1px solid #000 */
 }
-
-/* media queries
-@media (min-width:480px) and (max-width:767px) {
-    .eye {
-        right: 100px;
-    }
-}
-
-@media screen and (min-width:767px) {
-    .eye {
-        right: 185px;
-    }
-} */

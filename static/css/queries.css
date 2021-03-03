@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    height: 75vh;
+  }
+  .eye-icon {
+    right: 140px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-top: 100px;
+    height: 75vh;
+  }
+  .user label,
+  .pssd label {
+    font-size: 100%;
+  }
+  input {
+    border-bottom: 2px solid #f39c12;
+    height: 45px;
+    padding: 1px 5px;
+    font-size: 100%;
+    margin-top: 3px;
+  }
+  input:focus {
+    border-bottom: 4px solid #f39c12;
+  }
+  .eye {
+    font-size: 125%;
+  }
+  .eye-icon {
+    right: 65px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    padding-top: 75px;
+  }
+  .user label,
+  .pssd label {
+    font-size: 90%;
+  }
+  .user,
+  .pssd {
+    padding: 1px 2px;
+    margin-bottom: 5px;
+  }
+  .eye {
+    font-size: 100%;
+  }
+  .eye-icon {
+    right: 45px;
+    top: 43px;
+    width: 50px;
+    height: 50px;
+  }
+  input {
+    border-bottom: 1px solid #f39c12;
+    height: 35px;
+    padding: 1px 5px;
+    font-size: 90%;
+    margin-top: 2px;
+  }
+  input:focus {
+    border-bottom: 2.5px solid #f39c12;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
